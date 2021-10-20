@@ -1,6 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body{
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
+/*la partie haute de mon site*/
+body header{
+    border: 2px solid black;
+   
+    height: 25vh;
+    background:rgb(105,162,56) ;
+    display:flex ;
+       
+
+}
+body header div{
+    width: 15%;
+}
+body header div img{
+    height: 100%;
+    width: 100%;
+}
+body header nav{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*partie haute de mon main*/
+main {
+    border: 2px solid black;
+    height: 10%;
+    
+}
+main h1{
+    text-align: center;
+    color:rgb(116,39,113);
+}
+main h2{
+    text-align: center;
+    color:rgb(116,39,113);
+}
+main p{
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+
+}
+/* partie milieu main*/
+main img{
+    height: 10%;
+    width: 100%;
+    
+}
+/*partie basse du main*/
+main div{
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*partie footer*/
+footer{
+    border: 2px solid black;
+    background-color:rgb(105,162,56);
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
