@@ -12,14 +12,14 @@ body{
 }
 /*la partie haute de mon site*/
 body header{
-    border: 2px solid black;
-   
+    
+    background-color: rgb(105,162,56);
     height: 25vh;
-    background:rgb(105,162,56) ;
-    display:flex ;
-       
+    display:flex ;     
 
 }
+
+
 body header div{
     width: 15%;
 }
