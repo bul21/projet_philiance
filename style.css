@@ -11,12 +11,16 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 /*la partie haute de mon site*/
-body header{
+ body header{
     
     background-color: rgb(105,162,56);
     height: 25vh;
-    display:flex ;     
+    display:flex ; 
 
+
+}
+  body header nav{
+    color: rgb(116,39,113);
 }
 
 
@@ -42,6 +46,7 @@ main {
 main h1{
     text-align: center;
     color:rgb(116,39,113);
+    
 }
 main h2{
     text-align: center;
